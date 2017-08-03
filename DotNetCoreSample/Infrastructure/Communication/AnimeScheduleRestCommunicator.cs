@@ -1,10 +1,15 @@
-﻿namespace DotNetCoreSample.Infrastructure.Communication
+﻿using System.Net.Http;
+
+namespace DotNetCoreSample.Infrastructure.Communication
 {
     public class AnimeScheduleRestCommunicator
     {
         public object FetchAnimeSchedule()
         {
-            throw new System.NotImplementedException();
+            var client = new HttpClient();
+            var response = client.GetAsync("");
+            
+            return "";
         }
     }
 }
