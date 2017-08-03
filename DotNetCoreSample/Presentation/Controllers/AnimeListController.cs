@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Threading.Tasks;
-using DotNetCoreSample.Application.Service;
+﻿using DotNetCoreSample.Application.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetCoreSample.Controllers
+namespace DotNetCoreSample.Presentation.Controllers
 {
     public class AnimeListController : Controller
     {
