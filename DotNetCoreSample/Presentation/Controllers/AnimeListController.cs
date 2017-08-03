@@ -17,7 +17,7 @@ namespace DotNetCoreSample.Presentation.Controllers
         // コンストラクタインジェクション例。
         public AnimeListController(IAnimeService animeService)
         {
-            this.AnimeService = animeService;
+            AnimeService = animeService;
         }
         
     }
