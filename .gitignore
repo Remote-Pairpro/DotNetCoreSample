@@ -2,3 +2,6 @@
 .idea/
 DotNetCoreSample/obj/
 DotNetCoreSample/bin/
+DotNetCoreSampleTest/obj/
+DotNetCoreSampleTest/bin/
+packages/
