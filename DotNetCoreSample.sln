@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSample", "DotNetCoreSample\DotNetCoreSample.csproj", "{8B2E0343-F6AA-4994-9941-A87F8572B3E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSampleTest", "DotNetCoreSampleTest\DotNetCoreSampleTest.csproj", "{739C8B0D-5625-4953-96B6-9571898C31BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreSampleTest", "DotNetCoreSampleTest\DotNetCoreSampleTest.csproj", "{739C8B0D-5625-4953-96B6-9571898C31BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA15851-67BD-439E-8362-697BCC9081A8}
 	EndGlobalSection
 EndGlobal
