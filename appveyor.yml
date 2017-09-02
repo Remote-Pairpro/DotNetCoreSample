@@ -1,6 +1,3 @@
-configuration:
-- Debug
-- Release
 before_build:
 - appveyor-retry dotnet restore -v Minimal
 build_script:
