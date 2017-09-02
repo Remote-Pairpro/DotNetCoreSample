@@ -7,7 +7,7 @@ namespace DotNetCoreSample.Infrastructure.Communication
         public object FetchAnimeSchedule()
         {
             var client = new HttpClient();
-            var response = client.GetAsync("");
+//            var response = client.GetAsync("");
             
             return "";
         }
